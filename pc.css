@@ -1,0 +1,58 @@
+* {
+    margin: 0
+
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: skyblue;
+  }
+  
+  h1 {
+    color: red;
+    margin: 20px 0;
+    text-align: center;
+  }
+  h2 {
+    color: black;
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .registartion-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    color: rgb(15, 2, 4);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+    padding: 20px;
+  }
+  
+  .registartion-form input,
+  .registartion-form select,
+  .registartion-form textarea {
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+
+  .registartion-form .submit {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: gold;
+    background-color: black;
+    border-radius: 5px;
+  }
+  
+ 

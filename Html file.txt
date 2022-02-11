@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="pc.css">
+</head>
+<body>
+    <div class="container">
+      <h1>ThinkQuient</h1>
+     <marquee >Welcome To TQPP Training Program</marquee>
+      <marquee direction="left" 
+      behavior="scroll" 
+      style="border:rgb(39, 2, 2) 2px SOLID">
+      </marquee>
+        <h2>Student Registration </h2>
+        <form class="registartion-form" >
+          <table border=" solid black">
+            <tr>
+              <td><label for="name">Name :</label></td>
+              <td><input type="text" placeholder="your name" required></td>
+            </tr>
+            <tr>
+              <td><label for="email">Email :</label></td>
+              <td><input type="text" placeholder="your email" required></td>
+            </tr>
+            <tr>
+              <td><label for="password">Password :</label></td>
+              <td><input type="password"  required ></td>
+            </tr>
+            <tr>
+              <td><label for="phoneNumber">Phone Number :</label></td>
+              <td><input type="number" required></td>
+            </tr>
+            <tr>
+              <td><label for="gender" required>Gender :</label></td>
+              <td>
+                Male: <input type="radio" name="gender" value="male">
+                Female: <input type="radio" name="gender" value="female">
+                Other: <input type="radio" name="gender" value="other">
+              </td>
+            </tr>
+            <tr>
+              <td><label for="Graduation">Qualification :</label></td>
+              <td>
+                <select name="Graduation"  required>
+                  <option value="">Select Qualification</option>
+                  <option value="English">Graduation</option>
+                  <option value="Spanish">Post Graduation</option>
+                  <option value="Hindi">Under Graduate</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td><label >Course:</label></td>
+              <td>
+                 <select name="Course" >
+                <option >Select Course</option>
+                <option value="English">Java</option>
+                <option value="Spanish">PHP</option>
+                <option value="Hindi">Full Stack Developer</option>
+                <option value="Hindi">Full Stack Webdeveloper</option>
+              </select>
+            </td>
+            </tr>
+            <tr>
+              <td><label for="Address">Address:</label></td>
+              <td><textarea name="about"  placeholder="Write yourself current Addess..."></textarea></td>
+            </tr>
+            <tr>
+               <td colspan="2">
+                  <input type="submit" class="submit" value="Register" />
+                </td>
+            </tr>
+          </table>
+        </form>
+      </div>
+ 
+        
+</body>
+</html>
